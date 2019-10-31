@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body{
+    font-size: 18px;
+    padding: 1px;
+}
+body h5{
+    color: black;
+    font-weight: 400;
+    font-style: inherit;
+    font-size: 25px;
+}

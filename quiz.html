@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style5.css">
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+		<link rel="shortcut icon" href="images/boss.png" >
+	</head>
+	<body style="background-image: url(./images/img1.jpg);">
+		<!-- <header class="header">	 -->
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+			<link rel="stylesheet" href="./css/style.css">	
+			<!-- <nav class="nav"> -->
+				<!-- <img src="images/menu.png" alt="menu" class="dropImg"> -->
+			<!-- </nav>	 -->
+		<!-- </header> -->
+		<div class="container-fluid" style="background: white;">
+				<nav class="navbar navbar-expand-md navbar-light" style="margin-left: 18.5%;">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					  </button>
+		  
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					  <li class="nav-item active">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="quiz.html">Quiz</a>
+					  </li>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a class="dropdown-item" href="videos.html">Funções</a>
+						</div>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="sobre.html">Sobre-nós</a>
+					  </li>
+					</ul>
+				  </div>
+				</nav>
+			  </div>
+			  
+		<section class="section-main" >
+			<form name="form" class="form">
+				<article class="main menu" id="step">
+					<img src="images/imagem0.gif" alt="Visão do entrevistador" id="menu-entrevista">
+					<h1>Bem-vindo ao Quiz!</h1>
+					<p class="p">Faremos uma sequência de dez perguntas.</p>
+					<p>Responda todas e veremos se, ao final, você aprendeu!</p>
+					<h2>Está pronto para começar?</h2>
+						<button type="button" id="start">Enviar!</button>
+
+				</article>
+				<article class="main article 1" id="step1">
+                    <span class="voltar" id="voltar1"><img src="images/back.png" alt="voltar"></span>
+                    <h1>O início:</h1>
+					<img src="images/imagem1.jpg" alt="Despertando" class="img">
+					<p>Na figura acima, os dois primeiros filtros são posicionados de tal forma que possuam um
+					ângulo entre si, com isso, não podemos observar o texto escrito,</p>
+					<p>Qual o angulo?</p>
+					
+					<input type="radio" name="op1" value="1">25<br><br>
+					<input type="radio" name="op1" value="-1">45<br><br>
+					<input type="radio" name="op1" value="-1">55<br><br>
+					<input type="radio" name="op1" value="lose">90<br><br>
+					<button type="button" id="next1">Avançar</button>
+					
+
+				</article>
+				<article class="main article 2" id="step2">
+					<span class="voltar" id="voltar2"><img src="images/back.png" alt="voltar"></span>
+                    <h1>No local:</h1> 
+					<img src="images/imagem2.jpg" alt="Edifício" class="img">
+						<p>Okey, você chegou lá! O que faremos agora?</p><hr>
+						<input type="radio" name="op2" value="1">Se apresentar na recepção.<br><br>
+						<input type="radio" name="op2" value="-1">Jogar no celular.<br><br>
+						<input type="radio" name="op2" value="-1">Ir tomar café.<br><br>
+						<input type="radio" name="op2" value="lose">Voltar para casa.<br><br>
+						<button type="button"  id="next2">Avançar</button>
+					
+				</article>
+				<article class="main article 3" id="step3">
+                    <span class="voltar" id="voltar3"><img src="images/back.png" alt="voltar"></span>
+					<h1>A Entrevista:</h1>					
+					<img src="images/imagem3.png" class="img"	alt="Conversa">
+					<p>Legal, agora está ficando sério. Você foi chamado para entrar na sala.</p>
+					<p>Como deve se apresentar?</p><hr>
+					
+						<input type="radio" name="op3" value="-1">Cóe, suave?<br><br>
+						<input type="radio" name="op3" value="-1">Eai, beleza?<br><br>
+						<input type="radio" name="op3" value="1">Olá, bom dia!<br><br>
+						<input type="radio" name="op3" value="lose">Salve viado.<br><br>
+						<button type="button" id="next3">Avançar</button>
+					
+				</article>			
+				<article class="main article 4" id="step4">
+                    <span class="voltar" id="voltar4"><img src="images/back.png" alt="voltar"></span>
+					<h1>Apresentação:</h1>					
+					<img src="images/imagem4.jpg" alt="Conversa" class="img">
+                    <p>Tudo indo bem até agora! Seu (possível) futuro chefe quer te conhecer melhor :</p><hr>
+                    <p>Como foi o caminho até aqui ?</p><hr>
+						<input type="radio" name="op4" value="-1">Foi de boa mané!<br><br>
+						<input type="radio" name="op4" value="1">Tirando o trânsito, tudo bem!<br><br>
+						<input type="radio" name="op4" value="1">Foi tudo bem, clima agradável!<br><br>
+						<input type="radio" name="op4" value="-1">Da hora, peguei vários Pokémon!<br><br>
+						<button type="button" id="next4">Avançar</button>
+					
+				</article>
+				<article class="main article 5" id="step5">
+                    <span class="voltar" id="voltar5"><img src="images/back.png" alt="voltar"></span>
+					<h1>Apresentação:</h1>					
+					<img src="images/imagem5.jpg" alt="Conversa" class="img">
+					<p>Você já trabalhou antes ?</p><hr>
+						<input type="radio" name="op5" value="-1">É meu primeiro trampo!<br><br>
+						<input type="radio" name="op5" value="2">Sim, já possuo experiência profissional.<br><br>
+						<input type="radio" name="op5" value="1">Não, ainda não tive esta oportunidade.<br><br>
+						<input type="radio" name="op5" value="-1">Já trampei lá na quebrada.<br><br>
+						<button type="button" id="next5">Avançar</button>
+					
+				</article>
+				<article class="main article 6" id="step6">
+                    <span class="voltar" id="voltar6"><img src="images/back.png" alt="voltar"></span>
+					<h1>Apresentação:</h1>					
+					<img src="images/imagem6.png" alt="Conversa" class="img">
+					<p>Ele quer saber como está seu inglês :</p>
+					<p>Do you feel comfortable in speaking english ?</p><hr>
+						<input type="radio" name="op6" value="-1">EOQ ?<br><br>
+						<input type="radio" name="op6" value="-1">The book in on the table?<br><br>
+						<input type="radio" name="op6" value="2">Yes, I do fell comfortable with english conversations.<br><br>
+						<input type="radio" name="op6" value="-1">Yes, me very good english.<br><br>
+						<button type="button" id="next6">Avançar</button>
+					
+				</article>
+				<article class="main article 7" id="step7">
+                    <span class="voltar" id="voltar7"><img src="images/back.png" alt="voltar"></span>
+					<h1>Apresentação:</h1>					
+					<img src="images/imagem7.png" alt="Conversa" class="img">
+					<p>Interessante. O que você faz no seu tempo livre ?</p><hr>
+					
+						<input type="radio" name="op7" value="-1">Eu crio MEMES!<br><br>
+						<input type="radio" name="op7" value="1">Eu gosto de jogar.<br><br>
+						<input type="radio" name="op7" value="1">Assisto filmes.<br><br>
+						<input type="radio" name="op7" value="-1">Reuno meus amigos para uma baguncinha na minha casa.<br><br>
+						<button type="button" id="next7">Avançar</button>
+					
+				</article>
+				<article class="main article 8" id="step8">
+                    <span class="voltar" id="voltar8"><img src="images/back.png" alt="voltar"></span>
+					<h1>Apresentação:</h1>					
+					<img src="images/imagem8.png" alt="Conversa" class="img">
+					<p>A entrevista já está próxima do fim! Mantenha a calma.</p><hr>
+                    <p>Mas me diga agora, o que você espera dessa empresa ?</p><hr>
+					
+						<input type="radio" name="op8" value="-1">Vale Refeição conta?<br><br>
+						<input type="radio" name="op8" value="2">Espero ter a oportunidade de crescer na empresa!<br><br>
+						<input type="radio" name="op8" value="-2">Quero comprar coisas inúteis, to aqui só pelo dinheiro.<br><br>
+						<input type="radio" name="op8" value="-2">EU NUM CEI MEO!<br><br>
+						<button type="button" id="next8">Avançar</button>
+					
+				</article>
+				<article class="main article 9" id="step9">
+                    <span class="voltar" id="voltar9"><img src="images/back.png" alt="voltar"></span>
+					<h1>Apresentação:</h1>					
+					<img src="images/imagem9.jpg" alt="Conversa" class="img">
+					<p>Agora me diga, qual ramo de TI pretende seguir ?</p><hr>
+	
+						<input type="radio" name="op9" value="1">Suporte.<br><br>
+						<input type="radio" name="op9" value="1">Desenvolvedor de SOFTWARE.<br><br>
+						<input type="radio" name="op9" value="0">Nunca parei para pensar nisso.<br><br>
+						<input type="radio" name="op9" value="-1">Quero ser YOUTUBER!.<br><br>
+						<button type="button" id="next9">Avançar</button>
+					
+				</article>
+                <article class="main article 10" id="step10">
+                    <span class="voltar" id="voltar10"><img src="images/back.png" alt="voltar"></span>
+					<h1>Apresentação:</h1>					
+					<img src="images/imagem10.png" alt="Conversa" class="img">
+					<p>Essa é minha última pergunta. Por que eu devo te contratar ?</p><hr>
+					
+						<input type="radio" name="op10" value="-2">PQ EU TO DESEMPREGADO.<br><br>
+						<input type="radio" name="op10" value="2">Porque eu tenho vontade de iniciar na área.<br><br>
+						<input type="radio" name="op10" value="-2">Porque eu sou melhor que os outros!<br><br>
+						<input type="radio" name="op10" value="lose">Não deveria! Desculpa to nervoso! Só me contrata!<br><br>
+						<button type="button" id="next10">Avançar</button>
+				</article>
+				<article class="main article 11" id="step11">
+					<h1>Final:</h1>
+					<p>O entrevistador agradece sua presença, e diz:...</p>
+					<button type="button" id="next11">Avançar</button>
+				</article>
+
+				<!--- TELAS ALTERNATIVAS CASO USUÁRIO PERCA IMEDIATAMENTE DURANTE O QUIZ-->
+					<!--- LOSE1 -->
+				<article class="lose 1" id="lose1">
+					<h1>Você perdeu!</h1>
+					<img src="images/lose1.jpg" class="img" alt="lose1">
+					<p>Como assim !?? Você sequer conseguiu começar a entrevista.</p>
+					<p>De qualquer maneira. Ouvi falar que o McDonals está contratando...</p>
+					<p>Boa sorte!</p>
+					<button type="button" id="restart">Tentar arrumar um emprego descente</button>
+				</article>
+					<!--- LOSE1 -->
+					<!--- LOSE2 -->
+				<article class="lose 2" id="lose2">
+					<h1>Você perdeu!</h1>
+					<img src="images/LGBT.jpeg" class="img" alt="lose2">
+					<p>Parabéns, você acabou de chamar o chefe da empresa de "Viado"!</p>
+					<p>Ele é o embaixador da comunidade LGBT e promete que você nunca conseguirá um trabalho nessa empresa.</p>
+					<p>O jeito é fazer algumas plásticas para se disfarçar e tente novamente...</p>
+
+					<button type="button" id="restart1">Fazer plásticas e Recomeçar</button>
+				</article>	
+					<!--- LOSE2 -->
+					<!--- LOSE3 -->
+				<article class="lose 3" id="lose3">
+					<h1>Você perdeu!</h1>
+					<img src="images/pokemon.jpg" class="img" alt="lose3">
+					<p>Preparado para ser um Treinador Pokémon em tempo integral ?</p>
+					<p>Essa empresa tem políticas sérias contra jogos.</p>
+					<p>O presidente viu em uma suposta reportagem da Globo, que jogos tornam o usuário mais violento, blá blá blá...</p>
+					<p>Se quiser ter uma nova chance largue os GAMES!</p>
+
+					<button type="button" id="restart2">Procurar um emprego no qual posso jogar Pokémon</button>
+				</article>		
+					<!--- LOSE3 -->	
+					<!--- LOSE4 -->
+				<article class="lose 4" id="lose4">
+					<h1>Você perdeu!</h1>
+					<img src="images/gta.jpg" class="img" alt="lose4">
+					<p>Vixi Mano, parece que o "Presida" não curte pessoas que já tramparam na quebrada.</p>
+					<p>Esse preconceituoso acha que todo mundo que já frequentou alguma Comunidade é bandido.</p>
+					<p>Mete um processinho!</p>
+
+					<button type="button" id="restart3">Meter um Processinho e arrumar outra entrevista</button>
+					</article>		
+					<!--- LOSE4 -->
+					<!--- LOSE5 -->
+				<article class="lose 5" id="lose5">
+					<h1>Você perdeu!</h1>
+					<img src="images/book.jpg" class="img" alt="lose5">
+					<p>Apparently the Boss hated you...</p>
+					<p>Ah, esqueci você não fala Inglês! Não se preocupe outras oportunidades virão... </p>
+					<p>PS: Se eu fosse você sairia da Open English.</p>
+					<button type="button" id="restart4">Procurar outro job que não precise de Inglês</button>
+				</article>		
+					<!--- LOSE5 -->					
+					<!--- LOSE6 -->
+				<article class="lose 6" id="lose6">
+					<h1>Você perdeu!</h1>
+					<img src="images/meme.jpg" class="img" alt="lose6">
+					<p>Segundo o chefão, Memes são fáceis de serem criados. Já ouviu falar do MEME MAKER ?</p>
+					<p>Você não tem chance nessa empresa. Não faça Pokerface pra mim.</p>
+					<p>VAI FAZER MEMES NA SUA CASA. SEU DESEMPREGADO!</p>
+					<button type="button" id="restart5">Voltar chorando até sua casa e criar novos MEMES</button>
+				</article>		
+					<!--- LOSE6 -->					
+					<!--- LOSE7 -->
+				<article class="lose 7" id="lose7">
+					<h1>Você perdeu!</h1>
+					<img src="images/duvida.jpg" class="img" alt="lose7">
+					<p>Deveria ter pensado em alguma resposta boa!</p>
+					<p>Se você não sabe o que esperar da empresa, com certeza não sabemos o que esperar de você.</p>
+					<p>Talvez você consiga uma nova entrevista ano que vem... </p>
+					<button type="button" id="restart6">Esperar um ano e Recomeçar</button>
+				</article>		
+					<!--- LOSE7 -->	
+					<!--- LOSE8 -->
+				<article class="lose 8" id="lose8">
+					<h1>Você perdeu!</h1>
+					<img src="images/youtube.jpg" class="img" alt="lose8">
+					<p>Que pena, você tinha tanto potencial!</p>
+					<p>YouTuber não é profissão!</p>
+					<p>Ninguém vai se inscrever no seu canal...</p>
+					<button type="button" id="restart7">Criar um Canal no YouTube e Buscar um emprego real</button>
+				</article>		
+					<!--- LOSE8 -->
+					<!--- LOSE9 -->
+				<article class="lose 9" id="lose9">
+					<h1>Você perdeu!</h1>
+					<img src="images/desempregado.jpg" class="img" alt="lose9">
+					<p>Está tanto desesperado assim ?</p>
+					<p>Nunca será contratado com tanto desespero.</p>
+					<p>Tome muito calmante e boa sorte com sua vida medíocre.</p>
+					<button type="button" id="restart8">Tomar muita Maracugina e encontrar outro emprego</button>
+				</article>		
+					<!--- LOSE9 -->
+				<!--- TELAS ALTERNATIVAS CASO USUÁRIO PERCA IMEDIATAMENTE DURANTE O QUIZ-->
+                
+                
+                
+                
+				<!--- TELAS DE FINAIS-->
+				<!--- VITÓRIA SUPREMA-->
+				<article class="article final 1" id="final1">
+					<h1>VOCÊ VENCEU!</h1>
+					<img src="images/leo.gif" class="img" alt="win1">
+					<p>Parabéns, você não é mais um desempregado</p>
+					<p>O chefe da empresa gostou tanto da sua entrevista que te contratou na hora!</p>
+					<p>Agora continue acertando em suas escolhas! </p>
+					<button type="button" id="restart9">Recomeçar</button>
+				</article>		
+				<!--- VITÓRIA SUPREMA-->
+				<!--- VITÓRIA MÉDIA-->
+				<article class="article final 2" id="final2">
+					<h1>VOCÊ PASSOU PARA A SEGUNDA ETAPA!</h1>
+					<p>Parabéns, você passou para a segunda etapa do processo seletivo!</p>
+					<p>Eles prometeram que ligariam pra você depois de uma semana.....</p>
+					<hr><h2>UMA SEMANA DEPOIS...</h2><hr>
+					<p>Parabéns, você faz parte da empresa agora!!!</p>
+					<img src="images/level.gif" class="img" alt="win2">
+					<button type="button" id="restart10">Recomeçar</button>
+				</article>		
+				<!--- VITÓRIA MÉDIA-->
+				<!--- DERROTA 1---->
+				<article class="article final 3" id="final3">
+					<h1>VOCÊ PERDEU!</h1>
+					<img src="images/troll.gif" class="img" alt="lose10">
+					<p>Parabéns, você PERDEU!</p>
+					<p>Se está pensando:"Por que estão me parabenizando ?"</p>
+					<p>Saiba que poderia ter sido pior... Pelo menos você chegou até o final.</p>
+					<p>Mas se me dá licença. Segurança! Chute esse desempregado para fora dessa empresa agora!</p>
+					<button type="button" id="restart11">Recomeçar</button>
+				</article>		
+				<!--- DERROTA 1---->
+				
+				<!--- DERROTA 2---->
+				<article class="article final 4" id="final4">
+					<h1>VOCÊ PERDEU!</h1>
+					<img src="images/nelson.gif" class="img" alt="lose11">
+					<p>Parabéns, você PERDEU!</p>
+					<p>O Brasil tem aproximadamente 13 milhões de desempregados. Quer dizer, 13 milhões e 1 agora.</p>
+					<button type="button" id="restart12">Recomeçar</button>
+				</article>		
+				<!--- DERROTA 2---->
+				
+				<!--- TELAS DE FINAIS-->
+			</form>			
+		</section>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

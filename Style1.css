@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700,900');
+body{
+  min-height: 100%;
+  margin: 0px;
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+.containerBot{
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+  padding-top: 20px;
+  background-image: url("../images/FundoBot.gif");
+  box-sizing: border-box;
+}
+.text{
+  margin-top: 40px;
+  font-size: 28px;
+  color: #0493e5;
+  width: 100%;
+  text-align: center;
+}
